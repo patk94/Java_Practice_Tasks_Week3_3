@@ -18,20 +18,20 @@ public class Main {
             temperature = input.nextInt();
         }
 
-        //cough - why this doesn't work
+        //cough
         System.out.println("Do you have a cough?");
-        have_cough = input.nextLine();
+        have_cough = input.next();
         if (!(have_cough.equals("Yes") || have_cough.equals("No"))) {
             System.out.println("Please give answer Yes or No:");
-            have_cough = input.nextLine();
+            have_cough = input.next();
         }
 
-        //chest pain - this one works and code is the same like for cough (up)
+        //chest pain
         System.out.println("Do you have a chest pain?");
-        have_chest_pain = input.nextLine();
+        have_chest_pain = input.next();
         if (!(have_chest_pain.equals("Yes") || have_chest_pain.equals("No"))) {
             System.out.println("Please give answer Yes or No:");
-            have_chest_pain = input.nextLine();
+            have_chest_pain = input.next();
         }
 
         //diagnosis
